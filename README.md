@@ -37,6 +37,25 @@ Por limitaciones técnicas del juego que no se pudieron solucionar:
 
 ---
 
+## ⚠️ Descargo de responsabilidad
+
+Esta traducción **modifica archivos internos del juego**. Aunque se ha probado y funciona correctamente, no se puede garantizar al 100% que no cause problemas en todas las configuraciones posibles (Steam, GOG, Heroic, Lutris, Steam Deck, distintas versiones del juego, etc.).
+
+**Antes de instalar, haz copia de seguridad de:**
+
+- La carpeta completa del juego (desde Steam: Propiedades → Archivos instalados → Examinar → copia toda la carpeta a otro sitio).
+- Tus partidas guardadas (si las tienes).
+
+**Al instalar esta traducción aceptas que:**
+
+- Lo haces bajo tu propia responsabilidad.
+- Ni el autor de la traducción ni los colaboradores se hacen responsables de ningún daño, pérdida de partidas guardadas, corrupción de archivos o cualquier otro problema derivado del uso de esta traducción.
+- La única responsabilidad recae sobre el usuario que decide aplicarla.
+
+Dicho esto: no se ha reportado ningún caso de problemas. Pero más vale prevenir.
+
+---
+
 ## Instalación
 
 ### Windows (Steam)
