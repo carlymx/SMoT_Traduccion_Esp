@@ -8,9 +8,11 @@ Traducción completa (100%) de **Subterrain: Mines of Titan** al español de Esp
 
 ## Calidad de la traducción
 
-Esta no es una traducción automática de Google Translate ni un volcado de DeepL. Es el resultado de un **proceso de localización profesional asistido por IA**:
+Esta no es una traducción automática de Google Translate ni un volcado de DeepL. Es el resultado de **muchas horas de trabajo humano combinado con IA**, en un proceso iterativo de revisión, corrección y mejora constante:
 
-1. **Una IA agente** (OpenCode + GLM-5.2) ejecutó la traducción siguiendo paso a paso la guía [`PLAN_TRADUCCION.md`](archivos/PLAN_TRADUCCION.md): un documento de **6.643 líneas** con reglas estrictas de naturalidad, fidelidad al contexto, consistencia terminológica, registro por personaje y preservación de etiquetas técnicas.
+1. **Un agente de IA** (OpenCode + GLM-5.2) ejecutó la traducción inicial y los ajustes masivos siguiendo paso a paso la guía [`PLAN_TRADUCCION.md`](archivos/PLAN_TRADUCCION.md): un documento de **6.643 líneas** con reglas estrictas de naturalidad, fidelidad al contexto, consistencia terminológica, registro por personaje y preservación de etiquetas técnicas.
+
+2. **Un humano (yo) supervisó todo el proceso** durante horas: revisando muestras en el juego, detectando textos genéricos repetidos que la IA no veía, encontrando descripciones cruzadas entre objetos, corrigiendo incoherencias, y ajustando el tono de cada personaje para que nada sonara "a traducción". La IA hizo el trabajo pesado, pero sin supervisión humana el resultado habría sido un desastre.
 
 2. **No es una traducción literal.** Se sustituyeron frases hechas inglesas por expresiones naturales en español, se usaron sinónimos para dar coherencia a cada personaje, y se adaptaron los tonos (formal, coloquial, militar, científico) según el contexto del juego.
 
@@ -104,7 +106,7 @@ También documenta todos los problemas técnicos del juego que han dificultado l
 
 ## Créditos
 
-Traducción realizada por CarlyCode con un agente de IA (OpenCode + GLM-5.2) siguiendo la guía de localización profesional [`PLAN_TRADUCCION.md`](archivos/PLAN_TRADUCCION.md).
+Traducción, supervisión y corrección manual por **CarlyCode**, con asistencia de IA (OpenCode + GLM-5.2) siguiendo la guía de localización profesional [`PLAN_TRADUCCION.md`](archivos/PLAN_TRADUCCION.md).
 
 ---
 
