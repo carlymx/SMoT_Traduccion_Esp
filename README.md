@@ -1,0 +1,111 @@
+# Subterrain: Mines of Titan — Traducción al español de España
+
+Traducción completa (100%) de **Subterrain: Mines of Titan** al español de España. Incluye todos los diálogos, cinemáticas, misiones, objetos, habilidades, tutoriales, logros y finales. **7.717 líneas de texto traducidas.**
+
+---
+
+## Calidad de la traducción
+
+Esta no es una traducción automática de Google Translate ni un volcado de DeepL. Es el resultado de un **proceso de localización profesional asistido por IA**:
+
+1. **Una IA agente** (OpenCode + GLM-5.2) ejecutó la traducción siguiendo paso a paso la guía [`PLAN_TRADUCCION.md`](archivos/PLAN_TRADUCCION.md): un documento de **6.643 líneas** con reglas estrictas de naturalidad, fidelidad al contexto, consistencia terminológica, registro por personaje y preservación de etiquetas técnicas.
+
+2. **No es una traducción literal.** Se sustituyeron frases hechas inglesas por expresiones naturales en español, se usaron sinónimos para dar coherencia a cada personaje, y se adaptaron los tonos (formal, coloquial, militar, científico) según el contexto del juego.
+
+3. **El resultado es muy bueno**, comparable a una localización oficial. Dicho esto:
+
+- **Faltan cosas.** Algunas líneas no se han podido probar en juego y pueden tener errores de contexto (traducción correcta pero que no encaja del todo en la escena).
+- **Hay errores.** Con 7.700+ líneas y sin herramientas de testing automatizado, es inevitable que algo se haya escapado.
+- **Pero es mucho mejor que nada.** El juego es injugable en inglés si no lo dominas. Esta traducción lo hace completamente accesible para hispanohablantes.
+
+Si encuentras errores, [abre un issue](https://github.com) o un Pull Request con la corrección. Consulta [`GUIA_TECNICA.md`](GUIA_TECNICA.md) para saber cómo editar el bundle.
+
+---
+
+## ⚠️ Advertencia importante
+
+Por limitaciones técnicas del juego que no se pudieron solucionar:
+
+- **El slot de idioma por defecto (Default), que originalmente contenía el inglés, se ha sobrescrito con la traducción al español.** El juego no tiene selector de idioma en los menús, y el sistema de localización de Unity no permite añadir un idioma nuevo sin modificar el código del juego. La única forma viable fue reemplazar el texto del slot Default.
+- **Se han eliminado los directorios de los demás idiomas** (`Hu/`, `Kr/`, `Ru/`, `ZhCn/`) porque el juego podía cargarlos aleatoriamente y mezclar textos en varios idiomas.
+
+**Esto significa que si instalas esta traducción, no podrás volver al inglés ni a ningún otro idioma** a menos que tengas una copia de seguridad manual del bundle original. Por eso es **obligatorio** hacer la copia de seguridad que se indica en los pasos de instalación.
+
+---
+
+## Instalación
+
+### Windows (Steam)
+
+1. Ve a la carpeta del juego: clic derecho en el juego en Steam → **Propiedades** → **Archivos instalados** → **Examinar...**
+2. Navega a `Subterrain Mines of Titan_Data\StreamingAssets\aa\StandaloneWindows64\`
+3. **Renombra** el archivo `localization_assets_localization.bundle` (ej: añade `.bak`) para tener copia de seguridad.
+4. Copia `archivos/localization_assets_localization.bundle` de esta traducción en esa carpeta.
+5. Inicia el juego. Debería aparecer en español.
+
+### Linux / Steam Deck (Proton)
+
+1. Encuentra la carpeta del juego:
+   - **Steam Deck (interna):** `~/.local/share/Steam/steamapps/common/Subterrain Mines of Titan/`
+   - **Steam Deck (SD):** `/run/media/mmcblk0p1/steamapps/common/Subterrain Mines of Titan/`
+   - **Heroic / Lutris:** busca donde tengas instalado el juego.
+2. Navega a `Subterrain Mines of Titan_Data/StreamingAssets/aa/StandaloneWindows64/`
+3. Haz copia de seguridad:
+   ```bash
+   mv localization_assets_localization.bundle localization_assets_localization.bundle.bak
+   ```
+4. Copia el bundle traducido:
+   ```bash
+   cp archivos/localization_assets_localization.bundle .
+   ```
+5. Inicia el juego.
+
+### Scripts automáticos
+
+También puedes usar los scripts de instalación incluidos:
+- **Windows:** ejecuta `instalar_windows.bat` (doble clic).
+- **Linux/Steam Deck:** ejecuta `./instalar_linux.sh` desde terminal.
+
+---
+
+## Desinstalación (volver al inglés)
+
+Restaura el archivo `.bak` que creaste durante la instalación. Si usaste el script automático, busca `localization_assets_localization.bundle.bak` en la misma carpeta y renómbralo eliminando el `.bak`.
+
+**Nota:** esto solo restaurará el inglés. Para recuperar coreano, ruso, húngaro y chino necesitarás verificarlos desde Steam (clic derecho → Propiedades → Archivos instalados → Verificar integridad).
+
+---
+
+## ¿Quieres corregir algo o mejorar la traducción?
+
+Lee [`GUIA_TECNICA.md`](GUIA_TECNICA.md). Contiene todo lo necesario para:
+- Abrir, editar y guardar el bundle con UnityPy.
+- Detectar textos sin traducir, en inglés residual, o genéricos repetidos.
+- Exportar todos los textos a CSV para revisarlos.
+- Instrucciones tanto para **humanos** (paso a paso con scripts de ejemplo) como para **agentes de IA** (referencia compacta).
+
+También documenta todos los problemas técnicos del juego que han dificultado la traducción fan.
+
+---
+
+## Archivos del repositorio
+
+| Archivo | Descripción |
+|---|---|
+| `archivos/localization_assets_localization.bundle` | Bundle traducido (listo para instalar) |
+| `archivos/PLAN_TRADUCCION.md` | Guía de localización profesional usada por la IA |
+| `GUIA_TECNICA.md` | Cómo editar el bundle (para humanos e IAs) + problemas del juego |
+| `instalar_windows.bat` | Script de instalación para Windows |
+| `instalar_linux.sh` | Script de instalación para Linux/Steam Deck |
+
+---
+
+## Créditos
+
+Traducción realizada por CarlyCode con un agente de IA (OpenCode + GLM-5.2) siguiendo la guía de localización profesional [`PLAN_TRADUCCION.md`](archivos/PLAN_TRADUCCION.md).
+
+---
+
+## Licencia
+
+Esta es una traducción no oficial realizada por fans. Todos los derechos del juego pertenecen a sus respectivos autores. Este proyecto no tiene ánimo de lucro.
