@@ -2,7 +2,7 @@
 
 <p align="center"><img src="minesoftitan.png" alt="Subterrain: Mines of Titan" width="600"></p>
 
-Traducción completa (100%) de **Subterrain: Mines of Titan** al español de España. Incluye todos los diálogos, cinemáticas, misiones, objetos, habilidades, tutoriales, logros y finales. **7.717 líneas de texto traducidas.**
+Traducción casí completa (~98%) de **Subterrain: Mines of Titan** al español de España. Incluye todos los diálogos, cinemáticas, misiones, objetos, habilidades, tutoriales, logros y finales. **7.717 líneas de texto traducidas.**
 
 ---
 
