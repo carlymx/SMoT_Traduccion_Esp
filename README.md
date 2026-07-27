@@ -26,6 +26,21 @@ Si encuentras errores, [abre un issue](https://github.com) o un Pull Request con
 
 ---
 
+## 🌍 PLAN_TRADUCCION.md: la guía detrás de esta traducción
+
+[`PLAN_TRADUCCION.md`](archivos/PLAN_TRADUCCION.md) es un documento de **6.643 líneas** escrito expresamente para este proyecto. Es el manual de instrucciones que se le dio a la IA para traducir el juego con coherencia y calidad profesional.
+
+**Contenido:**
+
+- Reglas de naturalidad, fidelidad al contexto y consistencia terminológica.
+- Guías de registro por personaje (militar, científico, coloquial, formal).
+- Normas estrictas para preservar etiquetas técnicas (`<b>`, `<color>`, `{0}`, etc.).
+- Protocolo de revisión y corrección iterativa.
+
+**¿Por qué está aquí?** Porque aunque se escribió para este proyecto concreto, cualquiera puede usarlo como punto de partida para traducir otros juegos. Es una guía completa de localización de videojuegos con IA, y si te sirve para tu propio proyecto, adelante.
+
+---
+
 ## ⚠️ Advertencia importante
 
 Por limitaciones técnicas del juego que no se pudieron solucionar:
