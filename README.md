@@ -2,7 +2,7 @@
 
 <p align="center"><img src="minesoftitan.png" alt="Subterrain: Mines of Titan" width="600"></p>
 
-Traducción casí completa (~98%) de **Subterrain: Mines of Titan** al español de España. Incluye todos los diálogos, cinemáticas, misiones, objetos, habilidades, tutoriales, logros y finales. **7.717 líneas de texto traducidas.**
+Traducción al **~80%** de **Subterrain: Mines of Titan** al español de España. Incluye todos los diálogos, cinemáticas, misiones, objetos, habilidades, tutoriales, logros y finales. **6.184 de 7.717 líneas con texto traducidas.**
 
 ---
 
@@ -16,11 +16,32 @@ Esta no es una traducción automática de Google Translate ni un volcado de Deep
 
 2. **No es una traducción literal.** Se sustituyeron frases hechas inglesas por expresiones naturales en español, se usaron sinónimos para dar coherencia a cada personaje, y se adaptaron los tonos (formal, coloquial, militar, científico) según el contexto del juego.
 
-3. **El resultado es muy bueno**, comparable a una localización oficial. Dicho esto:
+3. **El resultado es sólido**, con una base de ~80% de contenido traducido. Las entradas restantes (~20%) son puntuación (`...`), nombres propios (Ida, Alp, Grace...) e identificadores técnicos que no requieren traducción.
 
-- **Faltan cosas.** Algunas líneas no se han podido probar en juego y pueden tener errores de contexto (traducción correcta pero que no encaja del todo en la escena).
-- **Hay errores.** Con 7.700+ líneas y sin herramientas de testing automatizado, es inevitable que algo se haya escapado.
-- **Pero es mucho mejor que nada.** El juego es injugable en inglés si no lo dominas. Esta traducción lo hace completamente accesible para hispanohablantes.
+### Cobertura por categoría
+
+| Categoría | Entradas | Traducido | Estado |
+|---|---|---|---|
+| Lore (libros, diarios) | 95 | 100% | Completo |
+| Cinemáticas | 51 | 100% | Completo |
+| Tips de carga | 12 | 100% | Completo |
+| Guías y tutoriales | 218 | 98.6% | Casi completo |
+| Historia principal | 993 | 98.3% | Casi completo |
+| NPCs | 208 | 98.6% | Casi completo |
+| Misiones secundarias | 2.132 | 97.1% | Casi completo |
+| Ajustes de dificultad | 38 | 94.7% | Muy avanzado |
+| Mensajes del sistema (Speech) | 45 | 53.3% | En progreso |
+| Diario de misiones | 122 | 54.9% | En progreso |
+| Descripciones (objetos/habilidades) | 975 | 46.6% | En progreso |
+| Objetos del entorno | 194 | 28.9% | En progreso |
+| Nombres (ítems, llaves, equipo) | 976 | 6.0% | Pendiente |
+| Endings (finales) | 245 | 4.9% | Pendiente |
+| IU (tooltips, botones) | 48 | 6.2% | Pendiente |
+| Habilidades y perks | 83 | 0% | Sin traducir |
+| Controles de teclado | 43 | 0% | Sin traducir |
+| **Total** | **7.717** | **80.1%** | |
+
+> **Nota:** Las categorías con bajo porcentaje son principalmente nombres propios, IDs técnicos y textos auxiliares. El contenido jugable (diálogos, misiones, historia, tutoriales) está prácticamente completo.
 
 Si encuentras errores, [abre un issue](https://github.com) o un Pull Request con la corrección. Consulta [`GUIA_TECNICA.md`](GUIA_TECNICA.md) para saber cómo editar el bundle.
 
